@@ -1,11 +1,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name ="ExampleTestRunnerChrome">
     <test name="MyTestChrome">
-        <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="data.Test1">
+            <class name="com.tests.testcase1.Test1">
                 <methods>
-                    <include name="test1"></include>
+                    <include name="testingPrint"></include>
                 </methods>
             </class>
         </classes>
