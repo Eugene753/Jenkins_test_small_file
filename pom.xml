@@ -47,9 +47,9 @@
                             <suiteXmlFiles>
                                 <suiteXmlFile>${suiteFileLocal}</suiteXmlFile>
                                 </suiteXmlFiles>
-                                <testFailureIgnore>true</testFailureIgnore>
-                            </configuration>
-                        </execution>
+                            <testFailureIgnore>true</testFailureIgnore>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
 
