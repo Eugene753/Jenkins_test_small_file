@@ -12,7 +12,7 @@ pipeline {
         }
         stage('testing'){
             steps {
-                sh 'mvn clean test'
+                sh 'mvn clean compile test'
                 echo 'running test automation'
             }
         }
