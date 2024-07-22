@@ -12,7 +12,7 @@ pipeline {
         }
         stage('testing'){
             steps {
-                sh 'mvn mvn clean test -Dsurefire.suiteXmlFiles=${suiteFileLocal}'
+                sh 'mvn clean test'
                 echo 'running test automation'
             }
         }
